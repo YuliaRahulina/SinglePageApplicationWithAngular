@@ -1,0 +1,24 @@
+.homePage {
+  padding: 25px;
+}
+
+.cardList {
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: auto;
+  justify-items: center;
+}
+
+@media (min-width: 900px) and (max-width: 1250px) {
+  .cardList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 860px) {
+  .cardList {
+    grid-template-columns: 1fr;
+  }
+}

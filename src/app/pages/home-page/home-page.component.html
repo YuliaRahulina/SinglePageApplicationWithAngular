@@ -1,0 +1,11 @@
+<div class="homePage">
+  <mat-form-field class="example-full-width">
+    <mat-label>Filter by keywords</mat-label>
+    <input matInput (keyup.enter)="onEnterKey()" [(ngModel)]="inputValue">
+  </mat-form-field>
+  <h2>Results:</h2>
+  <div class="cardList">
+    <app-card *ngFor="let articleItem of titleData" [data]="articleItem" />
+    <app-card *ngFor="let articleItem of summaryData" [data]="articleItem" />
+  </div>
+</div>

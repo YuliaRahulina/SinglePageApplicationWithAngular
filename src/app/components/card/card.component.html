@@ -1,0 +1,18 @@
+<a class="toArticlePage" [routerLink]="['/article', data.id]">
+  <div class="card">
+    <img [src]="data.image_url" class="imgPreview" />
+    <div class="content">
+      <div class="data">
+        <img class="iconCalendar" alt="calendar" src="/assets/img/icon-calendar.png">
+        <p>{{getDate()}}</p>
+      </div>
+      <p class="title">{{data.title}}</p>
+      <p class="desc">{{textLength()}}</p>
+      <div class="link" >
+        <span>Read more</span>
+        <img class="iconArrow" alt="arrow" src="/assets/img/icon-arrow.png">
+      </div>
+    </div>
+  </div>
+</a>
+

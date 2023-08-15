@@ -1,0 +1,68 @@
+.toArticlePage {
+  text-decoration: none;
+}
+
+.card {
+  width: 375px;
+  height: 510px;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  background: #FFF;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.05);
+  display: grid;
+  grid-template-rows: 217px 1fr;
+  gap: 5px;
+  color: #363636;
+}
+
+.imgPreview {
+  width: 100%;
+  height: 210px;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: 14px 58px 80px 20px;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.data {
+  display: flex;
+  align-content: center;
+  gap: 5px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.iconCalendar {
+  width: 16px;
+  height: 16px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.desc {
+  font-size: 16px;
+}
+
+.link {
+  color: #363636;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.iconArrow {
+  width: 12px;
+  height: 10px;
+}
+

@@ -1,0 +1,11 @@
+<div class="articlePage">
+  <img [src]="(articleData | async).image_url" class="imgPreview"/>
+  <div class="content">
+    <p class="title">{{(articleData | async).title}}</p>
+    <p class="desc">{{(articleData | async).summary}}</p>
+  </div>
+  <a routerLink="/" class="link">
+    <img class="iconArrow" src="./assets/img/iconArrowRight.png" alt="arrow">
+    <span>Back to homepage</span>
+  </a>
+</div>
